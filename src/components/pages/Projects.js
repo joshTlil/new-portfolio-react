@@ -1,43 +1,80 @@
 import React from 'react';
+import '../styles/Projects.css';
+import background from "./github.png";
+import notes from "./notetaker.png";
+import disney from "./homepage.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 export default function Projects() {
   return (
-    <div class="team-grid">
-    <div class="container">
-        <div class="intro">
-            <h2 class="text-center">Meet Our Team</h2>
-            <p class="text-center">A Bootstrap 4 example layout with an Meet our team section and team members</p>
+<div class="team-grid">
+<div class="container">
+    <div class="row people d-flex justify-content-center">
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style={{ backgroundImage:`url(${background})` }}>
+                <div class="cover">
+                    <h3 class="name">Joshua Thomas</h3>
+                    <p class="title">Full Stack Web Developer</p>
+                    <FontAwesomeIcon icon={faGithub}> </FontAwesomeIcon>
+                    <a href='https://github.com'> REPO </a>
+                </div>
+            </div>
         </div>
-        <div class="row people d-flex justify-content-center">
-            <div class="col-md-4 col-lg-3 item">
-                <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
-                    <div class="cover">
-                        <h3 class="name">Tim Cook</h3>
-                        <p class="title">Android Developer</p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style={{ backgroundImage:`url(${notes})` }}>
+                <div class="cover">
+                    <h3 class="name">Note Taker</h3>
+                    <p class="title">My project is about a simple note taker made with Express, you can take as many notes that you want and save them.</p>
+                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                   <a href= 'https://github.com/joshTlil/prepare-to-take-notes'> Repo</a>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 item">
-                <div class="box" style="background-image:url(https://i.imgur.com/WgXRMDs.jpg)">
-                    <div class="cover">
-                        <h3 class="name">Michael Clarke</h3>
-                        <p class="title">Cricker</p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3 item">
-                <div class="box" style="background-image:url(https://i.imgur.com/0Cdlenp.jpg)">
-                    <div class="cover">
-                        <h3 class="name">Carlos vento</h3>
-                        <p class="title">Business Analyst</p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
+        </div>
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style={{ backgroundImage:`url(${disney})` }}>
+                <div class="cover">
+                    <h3 class="name">Magical Wait Times</h3>
+                    <p class="title">The site is about how a user can login and use the Magical Kingdom map to navigate where they want to go,
+                    and they can read and write reviews on each individual ride so that the user knows what to aspect. </p>
+                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                    <a href= 'https://github.com/MJGRiley/Magical-Wait-Times'>Repo</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</div>
+
   );
-}
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

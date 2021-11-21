@@ -5,16 +5,10 @@ export default function Home() {
         <div>
             <h1>About Me</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+   I am a fullstack Web Developer, coding is my life at this. After learning how to code for the last three 
+   months in the GA Tech Coding BootCamp, I like doing projects on the backend. The reason is why is because 
+   there is so much more you can do in the backend, and it cool to see my work on a multi-page level after putting in all 
+   those hours to get it to work. When im not coding love to play video games watch movies and hangout with friends.
             </p>
             {/* /* <img src={logo} href="https://github.com" alt="some example " /> */ }
             <li><a href='https://github.com'><img src={logo} alt="something"/></a></li>
