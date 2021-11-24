@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/NavTabs.css';
 
-
+//css
 const styles = {
   navbarStyle: {
     background: 'green',
